@@ -1,4 +1,4 @@
-#include<WiFi.h>>
+#include<WiFi.h>
 const char ssid[]="nirmal kumar";
 const char password[]="nirmal@1234";
 void setup() {
@@ -9,12 +9,13 @@ delay(100);
 Serial.print("connecting to wifi");
 Serial.print("ssid");
 WiFi.begin(ssid,password);
-while(WiFi.status()!=WL_CONNECT){
+while(WiFi.status()!=WL_CONNECTED){
   delay(500);
   Serial.print(".");
+  WiFi.begin(ssid,password);
   
 }
-Serial.println():
+Serial.println();
 //Show connected
 Serial.println("connected");
 
