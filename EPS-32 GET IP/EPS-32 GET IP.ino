@@ -1,6 +1,7 @@
 #include<WiFi.h>
-const char ssid[]="nirmal kumar";
-const char password[]="nirmal@1234";
+//Your Wifi SSID and Password below
+const char ssid[]="nirmal kumar";   //SSID
+const char password[]="nirmal@1234"; // Password
 void setup(){
   // Initialize serial
 Serial.begin(9600);
