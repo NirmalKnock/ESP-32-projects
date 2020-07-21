@@ -6,7 +6,7 @@ const char password[]="Your password";
 
 //Thing speak configuration
 const unsigned long channel_id=  ; //your channel id here
-const char write_api_key[]="Your API key ";
+const char write_api_key[]="Your API key";
 // wifi object
 WiFiClient client;
 
